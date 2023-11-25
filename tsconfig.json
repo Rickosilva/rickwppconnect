@@ -1,7 +1,7 @@
 {
   "ts-node": {
     "esm": true,
-    "experimentalSpecifierResolution": "node"
+    /* "experimentalSpecifierResolution": "node" */
   }, 
   "compilerOptions": {
      /* Language and Environment */
@@ -9,23 +9,19 @@
    
     /* Modules */
     "module": "commonjs" /* Specify what module code is generated. */,
-  
     "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
    
     "types": [
       "jest"
     ] /* Specify type package names to be included without being referenced in a source file. */,
    
-   
     "resolveJsonModule": true /* Enable importing .json files. */,
-   
 
     /* JavaScript Support */
     "allowJs": true /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */,
     
     /* Emit */
     "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
-   
     "emitDeclarationOnly": true /* Only output d.ts files and not JavaScript files. */,
     "outDir": "./dist" /* Specify an output folder for all emitted files. */,
     
